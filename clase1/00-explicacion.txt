@@ -1,0 +1,161 @@
+¿Que es javascript?
+
+Javascript es un lenguaje de programacion quepermite agregar comportamiento e interactividad
+a las paginas web (Aunque su uso no se limita solo a la web)
+
+Cuando desarrollamos una pagina web, generalmente trabajamos con 3 tecnologias principales:
+
+HTML - la estructura
+Define los elementos que existen en una pagina: titulos, parrafos, imagenes, botones y
+formularios
+
+CSS - La presentacion
+Define los colores, tamaños, fuentes, espacios y distribucion de los elementos
+
+Javascript - El comportamiento
+Permite responder a acciones del usuario, realizar calculos, validar formularios, modificar
+el contenido y actualizar la pagina.
+
+Ejemplo:
+Imaginemos que una pagina tiene un boton llamado "Saludar"
+
+-HTML: Crea el boton
+-CSS: Define como se ve el boton
+-Javascript: determina que sucede cuando hacemos click.
+
+Javascript tambien se usa fuera del navegador, por ejemplo, con NodeJS, para desarrollar servidores
+y APIs, automatizaciones y otras aplicaciones.
+
+¿Javascript es lo mismo que Java?
+No. Aunque sus nombres son parecidos, son lenguajes diferentes, con caracteristicas y ecosistemas
+distintos.
+
+----------------------------------------------------
+
+Sintaxis basica de Javascript:
+
+¿Que es la sintaxis?
+
+La sintaxis es el conjunto de reglas que debemos respetar para escribir instrucciones validas
+en un lenguaje de programacion.
+
+En javascript, algunos elementos fundamentales son:
+-Instrucciones
+-Mayusculas y minusculas
+-Cadenas de texto
+-Numeros
+-Operadores
+-Comentarios
+-Llaves, parentesis y otros signos
+
+
+INSTRUCCIONES:
+Una instruccion es una orden que le damos al programa:
+
+console.log("Hola");
+console.log("¿Como estan?");
+console.log("Comenzamos la clase");
+
+Cada linea contiene una instruccion diferente.
+El punto y coma se utiliza par aindicar el final de una instruccion. En Javascript puede omitirse
+en muchos casos gracias a la insercion automatica de punto y coma, pero par acomenzar vamos
+a escribirlo de forma consistente.
+
+
+MAYUSCULAS Y MINUSCULAS:
+Javascript distingue mayusculas de minusculas.
+Esto se conoce como case-sensitive.
+
+console.log("Hola");
+Es correcto
+
+Console.log("Hola");
+Es incorrecto, porque Console y console no son lo mismo.
+
+Otro ejemplo:
+
+let nombre = "Pedro";
+
+console.log(nombre);
+
+console.log(Nombre);
+
+la primera llamada muestra "Pedro". La segunda genera un error porque Nombre no existe.
+
+
+CADENAS DE TEXTO (STRINGS):
+Los textos se escriben entre comillas simples o dobles.
+
+console.log("Hola mundo");
+console.log('Estoy aprendiendo Javascript')
+
+Ambas formas son validas.
+
+
+NUMEROS Y OPERACIONES MATEMATICAS:
+Javascript puede realizar operaciones matematicas.
+
+console.log(10 + 5);
+console.log(10 - 5);
+console.log(10 * 5);
+console.log(10 / 5);
+console.log(10 % 5);
+
+Operador        Significado                 Ejemplo
++               Suma                        10 + 5
+-               Resta                       10 - 5
+*               Multiplicacion              10 * 5
+/               Division                    10 / 5
+%               Modulo                      10 % 3
+
+
+TEXTO VERSUS NUMEROS
+Esta diferencia es muy importante
+
+console.log(10 + 5);
+console.log("10" + "5");
+console.log("Hola " + "mundo");
+
+Resultado:
+15
+105
+Hola mundo
+
+¿Porque?
+10 y 5 son numeros, asi que se suman
+"10" y "5" son textos, asi que se concatenan, es decir, se unen
+"Hola " y "mundo" tambien se unen para formar un solo texto.
+
+
+COMENTARIOS:
+Los comentarios permiten escribir aclaraciones que Javascript no ejecuta.
+
+Comentario de una linea:
+
+// Este es mi primer comentario
+console.log("Hola");
+
+Comentario de variaws lineas:
+
+/*
+Este programa muestra
+mensajes en la consola
+*/
+console.log("Hola");
+
+Los comentarios son utiles para explicar decisiones, documentar codigo o dejar recordatorios.
+
+
+VARIABLES: UNA PRIMERA APROXIMACION
+Una variable es un nombre asociado a un valor que podemos utilizar en el programa.
+
+--------------------------------
+
+Formas de abrir la terminal:
+
+1- Shortcut: Control + Ñ
+2- Menu de visual studio code: terminal -> New terminal
+3- Con el mouse: Pones el mouse justo donde termina el editor, se pone una barra celeste/azul
+y arrastras para arriba.
+4- En el explorador de archivos: Haces click derecho al archivo que queres ejecutar y pones
+"Open in integrated terminal"

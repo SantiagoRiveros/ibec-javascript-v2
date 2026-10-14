@@ -1,0 +1,111 @@
+Temas: variables, tipos de datos, operadores y estructuras condicionales.
+Objetivo: practicar los conceptos vistos en clase mediante ejercicios progresivos. Resolver utilizando JavaScript y mostrar los resultados con console.log().
+
+Ejercicio 1. Variables y asignación
+
+Crear un archivo script.js y declarar las siguientes variables:
+- nombre: nombre de una persona.
+- edad: edad de la persona.
+- ciudad: ciudad donde vive.
+- esEstudiante: si actualmente estudia o no.
+
+Mostrar todos los valores por consola.
+
+Luego, realizar las siguientes modificaciones:
+1. Cambiar la edad por un nuevo valor.
+2. Cambiar el valor de esEstudiante.
+3. Crear una variable pais utilizando const.
+4. Intentar cambiar el valor de pais y observar qué sucede. Después, comentar esa línea para que el resto del programa pueda ejecutarse.
+
+Ejercicio 2. Tipos de datos
+Declarar las siguientes variables:
+
+let producto = "Mouse";
+let precio = 12500;
+let disponible = true;
+let descuento = null;
+let cantidad;
+
+Resolver:
+1. Mostrar el valor de cada variable.
+2. Mostrar el tipo de dato de cada una utilizando typeof.
+3. Asignar el valor 3 a cantidad y volver a mostrarlo.
+4. Explicar con un comentario la diferencia entre null y undefined.
+
+Ejercicio 3. Operaciones matemáticas
+
+Crear dos variables numéricas llamadas numero1 y numero2, con los valores 24 y 5.
+
+Mostrar por consola:
+1. La suma.
+2. La resta.
+3. La multiplicación.
+4. La división.
+5. El resto de la división.
+6. La potencia de numero1 elevado a numero2.
+
+Después, cambiar los valores de las variables y comprobar que los resultados se actualizan.
+
+Ejercicio 4. Texto y números
+Sin ejecutar primero el código, escribir qué resultado creen que producirá cada instrucción. Después, comprobarlo en la consola.
+
+console.log(10 + 5);
+console.log("10" + "5");
+console.log("Hola " + "mundo");
+console.log(20 - 5);
+console.log("20" + 5);
+console.log(10 === "10");
+console.log(10 !== "10");
+
+Responder con comentarios en el archivo:
+- ¿Por qué algunas operaciones suman números y otras unen textos?
+- ¿Qué diferencia hay entre === y !==?
+
+Ejercicio 5. Operadores de asignación
+
+Crear una variable puntos con el valor 100.
+
+Realizar las siguientes operaciones, mostrando el valor después de cada una:
+1. Sumarle 50 utilizando +=.
+2. Restarle 30 utilizando -=.
+3. Multiplicarla por 2 utilizando *=.
+4. Dividir el resultado por 4 utilizando /=.
+5. Calcular el resto de dividir el valor actual por 7 utilizando %=.
+
+Ejercicio 6. Operadores de comparación
+
+Crear las siguientes variables:
+
+let edad = 20;
+let nota = 8;
+let tieneEntrada = true;
+let esSocio = false;
+
+Mostrar el resultado de estas expresiones:
+1. edad >= 18
+2. edad < 18
+3. nota === 8
+4. nota !== 10
+5. tieneEntrada && esSocio
+6. tieneEntrada || esSocio
+7. !esSocio
+8. edad >= 18 && tieneEntrada
+9. nota >= 7 && edad >= 18
+Indicar cuáles producen true y cuáles producen false.
+
+Ejercicio 7. Condicional simple
+
+Crear una variable edad.
+Utilizar if para mostrar el mensaje "Sos mayor de edad" cuando la edad sea igual o superior a 18.
+Probar el programa con las edades 15, 18 y 25.
+
+Ejercicio 8. Condicional doble
+Una tienda ofrece envío gratuito a partir de una compra de $30.000.
+
+Crear una variable totalCompra y utilizar if...else para mostrar:
+- "Tenés envío gratuito" si la compra es de $30.000 o más.
+- "El envío tiene costo" si la compra es inferior a $30.000.
+Probar con los valores 20000, 30000 y 45000.
+
+Para dudas o entrega, enviar a:
+sriveros@ibec.edu.uy
