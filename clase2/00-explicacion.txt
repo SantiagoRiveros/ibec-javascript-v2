@@ -1,0 +1,8 @@
+para clonar este repositorio
+
+Estructuras de control de flujo
+
+Condicionales y bucles:
+
+Un condicional altera el orden y que se ejecuta, dependiendo de la veracidad de una condicion.
+

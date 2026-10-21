@@ -1,0 +1,34 @@
+-Ejercicio 1:
+
+Calcular el precio final
+
+Crear una función calcularPrecio(precio, descuento) que reciba un precio y un porcentaje de descuento, y devuelva el precio final.
+console.log(calcularPrecio(10000, 20));
+// 8000
+
+-Ejercicio 2:
+Determinar si un número es par
+
+Crear una función esPar(numero) que devuelva true si el número es par y false si es impar.
+console.log(esPar(8)); // true
+console.log(esPar(5)); // false
+
+-Ejercicio 3:
+Encontrar el mayor
+
+Crear una función obtenerMayor(a, b) que reciba dos números y devuelva el mayor de los dos.
+
+Si son iguales, puede devolver cualquiera de los dos valores.
+
+-Ejercicio 4:
+Verificar si un alumno aprobó
+
+Crear una función aproboAlumno(alumno) que reciba un objeto con las propiedades nombre y nota.
+
+La función debe devolver true si la nota es mayor o igual a 6 y false en caso contrario.
+const alumno = {
+    nombre: "Martina",
+    nota: 8
+};
+
+console.log(aproboAlumno(alumno)); // true
