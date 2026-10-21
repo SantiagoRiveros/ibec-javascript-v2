@@ -1,0 +1,118 @@
+# Tarea práctica: Funciones en JavaScript
+
+**Objetivo:** Resolver problemas utilizando funciones, parámetros, condicionales, arrays y objetos.
+
+**Modalidad:** Individual.
+
+**Entrega:** Un archivo `tarea.js` con todos los ejercicios resueltos y probados.
+
+## Ejercicio 1 — Conversor de temperaturas
+
+Crear una función llamada `convertirTemperatura(celsius)` que reciba una temperatura en grados Celsius y devuelva su equivalente en Fahrenheit.
+
+La fórmula es:
+
+`Fahrenheit = Celsius * 9 / 5 + 32`
+
+Ejemplos:
+
+- `convertirTemperatura(0)` debe devolver `32`.
+- `convertirTemperatura(25)` debe devolver `77`.
+- `convertirTemperatura(-10)` debe devolver `14`.
+
+## Ejercicio 2 — Clasificación de edades
+
+Crear una función `clasificarEdad(edad)` que devuelva una categoría según la edad recibida:
+
+- Menor de 13: `"Niño"`
+- Desde 13 hasta 17: `"Adolescente"`
+- Desde 18 hasta 59: `"Adulto"`
+- 60 o más: `"Adulto mayor"`
+
+Probar la función con al menos cuatro edades diferentes.
+
+## Ejercicio 3 — Estadísticas de gastos
+
+Una persona registró sus gastos diarios:
+
+```javascript
+const gastos = [3500, 12000, 2800, 7500, 15000, 4200];
+```
+
+Crear las siguientes funciones:
+
+1. `calcularGastoTotal(gastos)`: devuelve la suma de todos los gastos.
+2. `contarGastosAltos(gastos)`: devuelve cuántos gastos superan los $5.000.
+3. `obtenerGastosPequenos(gastos)`: devuelve un nuevo array con los gastos menores a $5.000.
+
+## Ejercicio 4 — Gestión de películas
+
+Utilizar el siguiente array:
+
+```javascript
+const peliculas = [
+    { titulo: "Matrix", genero: "Ciencia ficción", puntuacion: 9 },
+    { titulo: "Titanic", genero: "Romance", puntuacion: 8 },
+    { titulo: "Toy Story", genero: "Animación", puntuacion: 9 },
+    { titulo: "El Conjuro", genero: "Terror", puntuacion: 7 },
+    { titulo: "Interestelar", genero: "Ciencia ficción", puntuacion: 10 }
+];
+```
+
+Crear las siguientes funciones:
+
+1. `buscarPorGenero(peliculas, genero)`: devuelve todas las películas de un género determinado.
+2. `obtenerMejorPelicula(peliculas)`: devuelve la película con mayor puntuación.
+3. `obtenerTitulos(peliculas)`: devuelve un array que contenga únicamente los títulos.
+
+## Ejercicio 5 — Sistema de reservas
+
+Crear un array de objetos que represente reservas de habitaciones de un hotel.
+
+Cada reserva debe tener las propiedades:
+
+- `huesped`: nombre de la persona.
+- `habitacion`: número de habitación.
+- `noches`: cantidad de noches reservadas.
+- `precioPorNoche`: costo por noche.
+- `confirmada`: valor booleano que indica si la reserva está confirmada.
+
+Cargar al menos cinco reservas de ejemplo.
+
+Crear las siguientes funciones:
+
+1. `calcularCostoReserva(reserva)`: devuelve el costo total de una reserva.
+2. `obtenerReservasConfirmadas(reservas)`: devuelve las reservas confirmadas.
+3. `buscarReserva(reservas, habitacion)`: devuelve la reserva correspondiente a un número de habitación o `null` si no existe.
+4. `calcularIngresos(reservas)`: calcula los ingresos potenciales de las reservas confirmadas, sumando el costo de cada una.
+
+## Ejercicio 6 — Analizador de palabras
+
+Crear una función `analizarPalabra(palabra)` que reciba una palabra y devuelva un objeto con la siguiente información:
+
+- `palabra`: la palabra original.
+- `longitud`: cantidad de caracteres.
+- `mayusculas`: la palabra convertida a mayúsculas.
+- `empiezaConA`: un booleano que indique si comienza con la letra `"a"`, sin distinguir mayúsculas de minúsculas.
+
+Ejemplo de resultado para `"Avion"`:
+
+```javascript
+{
+    palabra: "Avion",
+    longitud: 5,
+    mayusculas: "AVION",
+    empiezaConA: true
+}
+```
+
+## Condiciones de entrega
+
+- Utilizar funciones declaradas con `function`.
+- Utilizar parámetros y `return` cuando corresponda.
+- Resolver la lógica mediante condicionales y bucles cuando sean necesarios.
+- Probar cada función con diferentes valores.
+- Mostrar los resultados utilizando `console.log()`.
+- No utilizar HTML, CSS ni manipulación del DOM.
+
+**Importante:** Cada función debe resolver una responsabilidad concreta. No se permite resolver todos los ejercicios dentro de una única función.
